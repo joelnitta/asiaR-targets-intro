@@ -1,4 +1,4 @@
-# biopack-targets-intro
+# asiaR-targets-intro
 
 An introduction to the [{targets}](https://github.com/ropensci/targets) R package given for [Asia-R meetup 2022-05-07](https://github.com/AsiaR-community/2022-bioCasia_targets).
 
