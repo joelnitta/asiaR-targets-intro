@@ -42,6 +42,7 @@ https://joelnitta.com
 
 .pull-right[
 &lt;img src="https://github.com/joelnitta/joelnitta-site/blob/master/static/media/headers/research_img2.jpg?raw=true" alt="drawing" height="400"/&gt;
+.small[Photo: J-Y Meyer]
 ]
 
 ---
@@ -54,9 +55,34 @@ https://joelnitta.com
 To follow along with live coding, install [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/products/rstudio/download/), and [targets](https://github.com/ropensci/targets)
 
 ---
+## Why {targets}?
+
+--
+
+### To make your code more reproducible
+
+---
+## What is reproducibility?
+
+--
+
+&gt; The ability for others (or your future self) to re-run your code and get the same results
+
+--
+
+- Not "yes" or "no"
+- Reproducibility = **mindset**
+- Many aspects
+  - Computing environment
+  - Data availability
+  - **Code automation**
+  
+---
 ## Workflows in R
 
 ![Hadley Wickham's data analysis workflow chart](images/workflow_1.png)
+
+**Which steps** need to be run **in what order**?
 
 .footnote[R for Data Science https://r4ds.had.co.nz/]
 
@@ -70,39 +96,11 @@ If **one part** of a workflow changes, **how does it affect other parts?**
 **How much of it do we need to re-run?**
 
 ---
-## Reproducibility
-
-### Is your workflow reproducible...
-
-- ...right now?
-
-- ...in a few months (years)?
-
-- ...by somebody else?
-
-&lt;img src="https://1.bp.blogspot.com/-iG3QVEWl4dE/Wn1Vwtu1PwI/AAAAAAABKE8/8KR9vfXirfU5yXepByewkYZcrWqT-2EtQCLcBGAs/s800/computer_man3_cry.png" alt="drawing" height="250" style="float:right;margin:-100px 0px"&gt;
-
----
-## Leave workflow management to software
-
-Many solutions exist:
-
-- `make` (bash)
-- `snakemake` (python)
-- `nextflow` (bioinformatics piplelines)
-- `cwl`
-
-etc...
-
-&lt;img src="https://1.bp.blogspot.com/-JbBUDpFhZDM/Wn1VzKJupgI/AAAAAAABKFU/b2iI_-WbyWM_8Bjc0aZ2JgToTD-Tu25kQCLcBGAs/s800/computer_woman4_laugh.png" alt="drawing" height="250" style="float:right;margin:-150px 0px"&gt;
-
-
----
 
 ## What is {targets}?
 
 .pull-left[
-- Workflow manager **for R**
+- Automates workflow
 
 - Only runs necessary steps
 
@@ -149,13 +147,17 @@ class: inverse, center, middle
 ---
 ## Example workflows
 
-### gapminder workflow
+- Gapminder workflow
 
-https://github.com/joelnitta/targets_gapminder_example
+  - https://github.com/joelnitta/targets_gapminder_example
 
-### variant calling workflow
+- Variant calling workflow
 
-https://github.com/joelnitta/targets_vcf_example
+  - https://github.com/joelnitta/targets_vcf_example
+
+- My projects on github
+
+  - https://github.com/joelnitta/#reproducible-data-analysis-
 
 ---
 ## Summary
