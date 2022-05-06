@@ -1,8 +1,8 @@
 # biopack-targets-intro
 
-An introduction to the [{targets}](https://github.com/ropensci/targets) R package given for [Biopackathon meetup 2022-01-12](https://biopackathon.connpass.com/event/230807/).
+An introduction to the [{targets}](https://github.com/ropensci/targets) R package given for [Asia-R meetup 2022-05-07](https://github.com/AsiaR-community/2022-bioCasia_targets).
 
-Slides available at https://joelnitta.github.io/biopack-targets-intro/.
+Slides available at https://joelnitta.github.io/asiaR-targets-intro/.
 
 ## Example project
 
