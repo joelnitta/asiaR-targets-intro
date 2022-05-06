@@ -29,7 +29,7 @@ AsiaR Meetup <span style = 'font-size: 120%;'>2022/05/07</span>
 
 <br><br><img src="https://docs.ropensci.org/targets/logo.svg" alt="drawing" height="350" style="float:right;margin:-200px 0px">
 
-<br><br>https://joelnitta.com
+<br><br>https://joelnitta.github.io/asiaR-targets-intro
 
 ---
 
